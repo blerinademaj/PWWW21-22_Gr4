@@ -1,0 +1,48 @@
+p,html,body,a
+
+body{
+	
+}
+a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+   p
+  {
+	 /* background-color: black; */
+	  display: inline;
+	  padding: 100;
+
+  }
+/* icons orange from black*/
+  p i:hover { color: orange;
+  }
+  
+  input  {
+              border-radius: 10px;
+                background: #333333;
+                padding: 10px;
+                width: 200px;
+                height: 12px;
+                text-decoration: none;
+				font-family: Georgia;
+				font-size: 12px;
+                color: white;
+                float: right;
+}
+  
+  p label  {float: right; }
+  
+#search {
+ border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 12px;
+  color: white;
+  float: right;
+}
