@@ -285,6 +285,7 @@ hr#v2 {
 table {
        width: 100%;
        text-align: left;
+	   margin-left: 20px;
 }
 th {
   height: 50px;
@@ -300,6 +301,7 @@ td #submit {
   text-decoration: none;
   color: white;
   text-align: center;
+  
 
 }
 
@@ -421,10 +423,10 @@ th a{
 	font-family: "Georgia";
 color: #1a1a1a;}
 /* ngjyrosja e background-it ne te zeze ne tabelen e fundit dhe footer-it*/
-#n {
+#n { margin-top: 50px;
 	font-family: "Georgia";
 font-size: 12px;
-	background-color: #5c5c5c;
+	background-color: #252525;
 color: white;
 }
 
@@ -442,7 +444,8 @@ color: white;
 }
 #p2 { float: left; }
 
-footer {
+footer {margin-top:40px;
+	height: 60px;
 	background-color: #1a1a1a;
     color: #1a1a1a
 	position: left;
