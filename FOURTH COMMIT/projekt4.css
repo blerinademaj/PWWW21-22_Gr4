@@ -1,0 +1,230 @@
+p,html,body,a
+
+body{
+	font-family: "Georgia";
+    font-size: 12px;
+}
+
+a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+i{
+	height: 25px;
+	width: 20px;
+	color: white;
+} 
+   p{
+	  display: inline;
+  }
+  /* icons orange from black
+   i:hover { color: orange;
+  }
+ */
+ 
+.circle1{
+      display: inline-table;
+      width: 30px;
+      height:30px;
+      border-radius:50%;
+	  margin-left: 10px;
+	  text-align: center;
+	  vertical-align: -20px;
+      background-color:black;
+}
+.circle1:hover{ background: orange;}
+  
+.circle2{
+  display: inline-table;
+ width: 30px;
+ height:30px;
+ border-radius:50%; 	
+	  margin-left: 10px;
+	  text-align: center;
+	  vertical-align: -20px;
+	  background-color:black;
+}
+.circle2:hover{ background: orange;}
+
+.circle3{
+  display: inline-block;
+ width: 30px;
+height:30px;
+  border-radius:50%;
+	  margin-left: 10px;
+	  text-align: center;
+	  vertical-align: -20px;
+background-color:black;
+}
+.circle3:hover{ background: orange;}
+
+.circle4{
+  display: inline-block;
+ width: 30px;
+height:30px;
+  border-radius:50%;
+	  margin-left: 10px;
+	  text-align: center;
+	  vertical-align: -20px;
+	  background-color:black;
+}
+.circle4:hover{ background: orange;}
+
+.circle5{
+	  display: inline-block;
+	  width: 30px;
+	  height:30px;
+      border-radius:50%;
+	  margin-left: 10px;
+	  text-align: center;
+	  vertical-align: -20px;
+      background-color:black;
+}
+.circle5:hover{ background: orange;}
+
+#search {
+ border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 12px;
+  color: white;
+  float: right;
+}
+
+  input  {		
+			border-radius: 10px;
+            background: #333333;
+            padding: 10px;
+            width: 200px;
+            height: 12px;
+            text-decoration: none;
+			font-family: Georgia;
+			font-size: 12px;
+            color: white;
+            float: right;
+}
+
+p label  {float: right; 
+}
+
+  nav ul p{
+	  font-size: 32px;
+	  font-style: bold;
+	  color: #4a4a4a;
+	/*	pike fillestare margin-left: -40px; */
+	  margin-left: -25px;
+	  background-size: 100px 100px 100px 100px;
+  }
+    ul li
+  {   float: right;
+	  list-style: none;
+	  display: inline;
+	  margin-left: 25px;
+ }
+
+/* menyte(homepage...) me elementin hover,border per vijen*/
+  ul li :hover{color: #3bafbe;}
+
+/* heqja e underline te linkut*/
+ li a {text-decoration:none;}
+/* icons pinterest,google... to gray*/
+p a i {color: white;
+       }
+
+figcaption h4 { float: left;}
+
+  nav ul p1
+  {
+	  font-size: 1em;
+
+  }
+
+/* menyte homepage.... black*/
+li a {color: #999999;
+	  font-family: "Georgia";
+	  font-size: 12px;
+
+}
+
+  div
+  { float: center;
+	 text-align: right;
+     padding: 0px;
+  }
+  
+  /* fotot e animacionit*/
+
+{border-sizing: 60px;
+ border-box: 200px;
+ border-radius: 20px;}
+
+.mySlides{display: none;}
+.mySlides img {
+	 vertical-align: -50px;
+     height: 360px;
+     width: 500px;
+     }
+
+/* Slideshow container */
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #3bafbe;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+     	   background-color: white;
+}
+
+/*vendosja e titullit ne mes dhe ndryshimi i fontit */
+   h1{
+	 text-align: left;
+     padding: 10px;
+     font-family: "Georgia";
+     font-size: 42px;
+     color: #4a4a4a;
+     font-variant: small-caps;
+     text-transform: capitalize;
+  }
+  div
+  { float: center;
+	 text-align: center;
+     padding: 0px;
+  }
+/* welcome title (Astronomy facts)*/
+  section h3
+  {
+	  text-align: center;
+      padding: 10px;
+  }
+
+  /* borders te view full gallery*/
+#b a{
+  border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 300px;
+  height: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+
