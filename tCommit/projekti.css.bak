@@ -1,0 +1,98 @@
+p,html,body,a
+
+body{
+	
+}
+a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+   p
+  {
+	 /* background-color: black; */
+	  display: inline;
+	  padding: 100;
+
+  }
+
+.cir{display:inline-table;}
+
+.circle1{
+ width: 30px;
+height:30px;
+  border-radius:50%;
+ text-align:center;
+
+background-color:black;
+margin-right:15px;            
+
+}.circle2{
+ width: 60px;
+height:60px;
+  border-radius:50%;
+text-align:center;
+background-color:black;
+margin-right:15px;            
+
+}
+.circle3{
+ width: 60px;
+height:60px;
+  border-radius:50%;
+ 
+background-color:black;
+margin-right:15px;            
+
+}
+.circle4{
+ width: 60px;
+height:60px;
+  border-radius:50%;
+ 
+background-color:black;
+margin-right:15px;            
+
+}.circle5{
+ width: 60px;
+height:60px;
+  border-radius:50%;
+ 
+background-color:black;
+margin-right:15px;            
+
+}.circle6{
+ width: 60px;
+height:60px;
+  border-radius:50%;
+ 
+background-color:black;
+margin-right:15px;            
+
+}
+.cr{width: 60px;
+height:60px;
+  border-radius:50%;
+  background-color:black;
+
+}
+
+/* icons orange from black*/
+  p i:hover { color: orange;
+  }
+
+  
+  p label  {float: right; }
+  
+#search {
+ border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 12px;
+  color: white;
+  float: right;
+}
