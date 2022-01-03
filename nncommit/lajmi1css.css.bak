@@ -1,0 +1,357 @@
+p,html,body,a
+
+body{
+
+	font-family: "Georgia";
+    font-size: 12px;
+}
+a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.fancy{  border-top: 5px solid #3bafbe;}
+
+i{
+	height: 25px;
+	width: 20px;
+	color: white;
+} 
+   p{
+	  display: inline;
+  }
+  /* icons orange from black
+   i:hover { color: orange;
+  }
+ */
+ form{margin-top: 25px;}
+.circle1{
+     background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle1:hover{ background: orange;}
+  
+.circle2{
+  background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle2:hover{ background: orange;}
+
+.circle3{
+ background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle3:hover{ background: orange;}
+
+.circle4{
+ background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle4:hover{ background: orange;}
+
+.circle5{
+	 background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle5:hover{ background: orange;}
+
+::placeholder {
+        
+        color: white;
+    }
+#search {
+ border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 12px;
+  color: white;
+  float: right;
+  margin-left: 3px;
+  border: 0;
+  margin-right: 20px;
+}
+
+
+  input  {		
+			border-radius: 10px;
+            background: #333333;
+            padding: 10px;
+            width: 200px;
+            height: 12px;
+            text-decoration: none;
+			font-family: Georgia;
+			font-size: 12px;
+            color: white;
+            float: right;
+			 
+}
+
+p label  {float: right; 
+}
+
+  nav ul p{
+	  font-size: 32px;
+	  font-style: bold;
+	  color: #4a4a4a;
+	/*	pike fillestare margin-left: -40px; */
+	  margin-left: -25px;
+	  background-size: 100px 100px 100px 100px;
+  }
+   #welcome{
+	 color:#999999;
+	 margin-left:-25px;
+	 font-family:"Georgia"
+	 font-size:12px;
+	 }
+	 #firstline{background-color: #e2e2e2; height: 1px; border: 0;margin-top: 25px;}
+
+    ul li
+  {   float: right;
+	  list-style: none;
+	  display: inline;
+	  margin-left: 25px;
+	  margin-right: 20px;
+ }
+
+/* menyte(homepage...) me elementin hover,border per vijen*/
+  ul li :hover{color: #3bafbe;}
+
+/* heqja e underline te linkut*/
+ li a {text-decoration:none;}
+/* icons pinterest,google... to gray*/
+p a i {color: white;
+       }
+	   li a {color: #999999;
+	  font-family: "Georgia";
+	  font-size: 12px;
+
+}
+
+/* Container holding the image and the text */
+.container {
+	margin-top:30px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+
+/* Centered text */
+.centered {
+font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.tittleimage{
+	font-size: 50px;
+	position:absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	
+	
+}
+
+.permbajtja{
+		margin-top:50px;
+   margin-left:100px;
+margin-right: 100px;
+	
+}
+.permbajtja p{
+	font-family: open sans,sans-serif;
+    font-size: 20px;
+    line-height: 1.88;
+    word-break: break-word;
+
+}
+.paragrafi{margin-top:50px;}
+.header2{margin-top: 30px;}
+.header2 h2{
+	margin-top: 60px;
+font-family: playfair display,serif;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 3.75rem;
+    margin: 0;
+    padding: 0;
+}
+.header2 h3{
+	font-size: 25px;
+	
+}
+
+
+/* dizajnimi i tabeles*/
+table {
+       width: 100%;
+       text-align: left;
+	   margin-left: 20px;
+}
+th {
+  height: 100px;
+  width: 1000px;
+
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+/* vija e trete*/
+
+/* pjesa e dyte e katroreve */
+
+  /* vendosja e kornizave te fotove */
+  
+
+/*
+#tabela1{
+	
+	  height: 300px;
+  width: 1000px;
+  margin-left: -100 px;
+  margin-right: 100px;
+  padding: 10px;
+  
+}
+*/
+/* ne fund te tabeles butoni sumbit*/
+td #submit {
+  border-radius: 10px;
+  background: #1a1a1a;
+  padding: 15px;
+  width: 80px;
+  height: 20px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+
+}
+
+td a {text-decoration: none;}
+
+
+
+.fa-clickable {
+    cursor:pointer;
+    outline:none;
+
+}
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
+/*zgjedhja e fontit pjesen e fundit*/
+ul #g
+{
+	
+	font-family: "Georgia";
+font-size: 20px;
+color: #5c5c5c;
+margin-left:-20px;
+
+font-variant: small-caps;
+text-transform: capitalize;
+}
+#v2{
+	margin-top: 50px;
+	
+}
+th a{ 
+	font-family: "Georgia";
+color: #1a1a1a;}
+/* ngjyrosja e background-it ne te zeze ne tabelen e fundit dhe footer-it*/
+#n { margin-top: 100px;
+	font-family: "Georgia";
+font-size: 12px;
+	background-color: #252525;
+color: white;
+}
+
+#a1 {color: #3bafbe;}
+#f{   background: #2c2c2c;
+	border:0px;
+	margin-bottom: 10px;
+	
+}
+
+#f::placeholder {
+color:#989898;}
+#ss {
+   border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  color: white;
+  float: left;
+}
+#p2 { float: left; }
+
+footer {margin-top:40px;
+	height: 60px;
+	background-color: #1a1a1a;
+    color: #1a1a1a
+	position: left;
+	height: 50px;
+	}
