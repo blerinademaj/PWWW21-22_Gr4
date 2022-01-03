@@ -19,6 +19,7 @@ i{
 } 
    p{
 	  display: inline;
+	  color: red;
   }
   /* icons orange from black
    i:hover { color: orange;
@@ -116,10 +117,7 @@ i{
   font-size: 12px;
   color: white;
   float: right;
-  margin-left: 3px;
-  border: 0;
 }
-
 
   input  {		
 			border-radius: 10px;
@@ -146,13 +144,6 @@ p label  {float: right;
 	  margin-left: -25px;
 	  background-size: 100px 100px 100px 100px;
   }
-   #welcome{
-	 color:#999999;
-	 margin-left:-20px;
-	 font-size:12px;
-	 }
-	 #firstline{background-color: #e2e2e2; height: 1px; border: 0;margin-top: 25px;}
-
     ul li
   {   float: right;
 	  list-style: none;
@@ -285,7 +276,6 @@ hr#v2 {
 table {
        width: 100%;
        text-align: left;
-	   margin-left: 20px;
 }
 th {
   height: 50px;
@@ -301,7 +291,6 @@ td #submit {
   text-decoration: none;
   color: white;
   text-align: center;
-  
 
 }
 
@@ -413,8 +402,6 @@ ul #g
 {font-family: "Georgia";
 font-size: 20px;
 color: #5c5c5c;
-margin-left:-20px;
-
 font-variant: small-caps;
 text-transform: capitalize;
 }
@@ -423,10 +410,10 @@ th a{
 	font-family: "Georgia";
 color: #1a1a1a;}
 /* ngjyrosja e background-it ne te zeze ne tabelen e fundit dhe footer-it*/
-#n { margin-top: 50px;
+#n {
 	font-family: "Georgia";
 font-size: 12px;
-	background-color: #252525;
+	background-color: #5c5c5c;
 color: white;
 }
 
@@ -444,8 +431,7 @@ color: white;
 }
 #p2 { float: left; }
 
-footer {margin-top:40px;
-	height: 60px;
+footer {
 	background-color: #1a1a1a;
     color: #1a1a1a
 	position: left;

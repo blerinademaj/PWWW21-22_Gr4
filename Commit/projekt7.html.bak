@@ -47,7 +47,7 @@
     <nav>
         <ul>
 <p id="g">PAPERPLANE </p> <br>
-<p1 id="welcome"> Welcome to Paperplane News</p1>
+<p1> Welcome to Paperplane News</p1>
 
 <li><a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/Game.html?_ijt=cgjhg4oj8fpbqieuhhfcvi5k6m">GALLERY</a></li>
 <li><a href="https://www.nasa.gov/content/stars-and-galaxies">PORTFOLIO</a></li>
@@ -62,7 +62,6 @@
         </ul>
      </nav>
 </p>
-<hr id="firstline">
 
 
 <!-- animacioni me fotot-->
@@ -173,7 +172,6 @@ $(window).load(function() {
 
 <Section>
     <table id="1" border="0">
-	  <tbody>
         <thead>
         <tr>
             <th><figure><img src="C:\Users\Lenovo\Desktop\Viti3\Viti3\PWW\Projekti\Commit-6/meteorids.jpg" />
@@ -188,15 +186,23 @@ $(window).load(function() {
 
             <th><figure><img src="Images/g21.png" /><figcaption><a href="https://solarsystem.nasa.gov/planets/earth/overview/">Our Home Planet-Earth</a></figcaption></figure>
             <p>Our home planet is the third planet from the Sun, and the only place we know of so far that’s inhabited by living things. </p></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th><figure><img src="Images/g9.jpg"/>
+                <figcaption><a href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/"> The Solar System</a></figcaption>
+            </figure><p>Our Solar System is 4.6 billion years old and was formed inside a diffuse cloud of interstellar gas.
+                </p></th>
 
             <th><figure><img src="Images/g22.jpg"/><figcaption><a href="https://solarsystem.nasa.gov/solar-system/sun/overview/">Our Star-SUN</a></figcaption></figure>
             <p>The Sun—the heart of our solar system—is a yellow dwarf star, a hot ball of glowing gases.</p></th>
         </tr>
-	 </thead>
         </tbody>
     </table>
 </Section>
 
+    <hr id="v2" >
 
 <section id="n">
     <table border="0">
