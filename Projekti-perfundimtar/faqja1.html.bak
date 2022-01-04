@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<header class="fancy"></header>
+
+    <meta charset="UTF-8">
+    <title>Faqja_e_pare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/html" href="projekti10.html"/>
+    <script src="jquery-3.4.1.min.js"> </script>
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script>
+	$(function() { alert('Shtyp OK') })
+$(document).ready(function(){
+  $("#space").click(function(){
+    $("#pp").fadeToggle("slow");
+    $("#pp").hide("slow", function(){
+    alert("The paragraph is now hidden");
+  });
+  });
+});
+</script>
+    <!-- drag and drop -->
+    <script>
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("text");
+  ev.target.appendChild(document.getElementById(data));
+}
+</script>
+    <style>
+
+/*dizajnimi i news&Events*/
+#slide1, #slide {
+  padding: 5px;
+  text-align: center;
+  background: -webkit-linear-gradient(left,#3bafbe,Violet);
+  color: white;
+  border: solid 1px #c3c3c3;
+  height: 60px;
+  margin-left: 0px;
+    margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+}
+#slide1 {
+  padding: 50px;
+  display: none;
+  font-family: Georgia, serif;
+font-size: 50px;
+color: red;
+font-weight: normal;
+text-decoration: none;
+font-style: italic;
+font-variant: normal;
+text-transform: none;
+}
+
+
+#div1 {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid #aaaaaa;
+}
+
+ body{
+
+	font-family: "Georgia";
+    font-size: 12px;
+}
+a{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.fancy{  border-top: 5px solid #3bafbe;}
+
+i{
+	height: 25px;
+	width: 20px;
+	color: white;
+} 
+   p{
+	  display: inline;
+  }
+  /* icons orange from black
+   i:hover { color: orange;
+  }
+ */
+ form{margin-top: 25px;}
+.circle1{
+     background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle1:hover{ background: orange;}
+  
+.circle2{
+  background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle2:hover{ background: orange;}
+
+.circle3{
+ background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle3:hover{ background: orange;}
+
+.circle4{
+ background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle4:hover{ background: orange;}
+
+.circle5{
+	 background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle5:hover{ background: orange;}
+
+::placeholder {
+        
+        color: white;
+    }
+#search {
+ border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 12px;
+  color: white;
+  float: right;
+  margin-left: 3px;
+  border: 0;
+}
+
+
+  input  {		
+			border-radius: 10px;
+            background: #333333;
+            padding: 10px;
+            width: 200px;
+            height: 12px;
+            text-decoration: none;
+			font-family: Georgia;
+			font-size: 12px;
+            color: white;
+            float: right;
+			 
+}
+
+p label  {float: right; 
+}
+
+  nav ul p{
+	  font-size: 32px;
+	  font-style: bold;
+	  color: #4a4a4a;
+	/*	pike fillestare margin-left: -40px; */
+	  margin-left: -25px;
+	  background-size: 100px 100px 100px 100px;
+  }
+   #welcome{
+	 color:#999999;
+	 margin-left:-25px;
+	 font-family:"Georgia"
+	 font-size:12px;
+	 }
+	 #firstline{background-color: #e2e2e2; height: 1px; border: 0;margin-top: 25px;}
+
+    ul li
+  {   float: right;
+	  list-style: none;
+	  display: inline;
+	  margin-left: 25px;
+ }
+
+/* menyte(homepage...) me elementin hover,border per vijen*/
+  ul li :hover{color: #3bafbe;}
+
+/* heqja e underline te linkut*/
+ li a {text-decoration:none;}
+/* icons pinterest,google... to gray*/
+p a i {color: white;
+       }
+
+figcaption h4 { float: left;}
+
+  nav ul p1
+  {
+	  font-size: 1em;
+
+  }
+
+/* menyte homepage.... black*/
+li a {color: #999999;
+	  font-family: "Georgia";
+	  font-size: 12px;
+
+}
+
+
+/*dizajnimi i lajmit te pare nen News&Events */
+
+   tr th img {
+               float: left;
+               width: 300px;
+               height: 250px;
+               font-size: smaller;
+               margin: 0px;
+               padding: 0.5em;
+}
+
+/*fotot te popular articles*/
+ img#a  { width: 150px;
+       height: 150px; }
+       img#a1 {width: 150px;
+              height: 150px; }
+              img#a2 {width: 150px;
+                      height: 150px;}
+
+/*box data para cdo news*/
+.date {box-shadow: 25px 25px 50px #3bafbe;
+    background:  border-box no-repeat;
+    border: solid;
+    border-radius: 0em;
+    margin: 2.5em;
+    width: 200px;
+    font-size: 1.0em ;
+    background-color: Plum;
+    border-color: #3bafbe;
+}
+
+/*news and events*/
+h1 { text-align: center;
+     margin: 1.5em;
+font-family: "Georgia";
+font-size: 30px;
+letter-spacing: 0.8px;
+word-spacing: 2px;
+text-decoration: overline solid #3bafbe;
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+ padding: 5px;
+  background: -webkit-linear-gradient(left,#3bafbe,Violet);
+  color: white;
+  border: solid 1px #c3c3c3;
+  height: 60px;
+  margin-left: 0px;
+    margin-right: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+
+/* texti i tabeles */
+table {
+       width: 100%;
+       text-align: left;
+}
+
+/* ndryshimi i shkrimit te linku i tabeles 1 */
+table a {font-family: "Georgia";
+          font-size: 22px;
+          color: black;}
+
+/*ndryshimi i tekstit te linkut tek news Popular Articles*/
+#b  {font-size: 18px;}
+#b1  {font-size: 18px;}
+#b2  {font-size: 18px;}
+
+/* elementi hover te linku i tabeles*/
+ table a:hover { color: #3bafbe; }
+
+/* ndryshimi i madhesise se textit te paragrafit nen foto te tabeles*/
+  tr { font-size: 15px;
+        font-family: "Georgia";
+ }
+ /*dizajnimi i tekstit Popular Articles*/
+h2 {text-decoration: underline;
+    margin: 2em;
+    color: #3bafbe;}
+
+/*heqja e nenvizimit te linkut te tel, email dhe linkut*/
+#tel {text-decoration: none;
+ color: #3bafbe;}
+#email {text-decoration: none; color: #3bafbe;}
+#a1 {text-decoration: none;}
+
+
+
+/*zgjedhja e fontit per PAPERPLANE dhe Welcome title*/
+ul p
+{font-family: "Georgia";
+font-size: 42px;
+font-variant: small-caps;
+text-transform: capitalize;}
+
+td a { font-family: "Georgia";
+font-size: 15px;
+}
+#n {
+	font-family: "Georgia";
+font-size: 12px;
+	background-color: #1a1a1a;
+color: white;
+}
+
+#a1 {color: #3bafbe;}
+#f{   background: #2c2c2c;
+	border:0px;
+	margin-bottom: 10px;
+}
+
+#f::placeholder {
+color:#989898;}
+#ss1 {
+   border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  color: white;
+  float: left;
+}
+#p2{ float: left; }
+/* ndryshimi i teresishem i faqes*/
+padding: 2px;
+}
+#brenda { border-radius: 15px;
+background-color: white;
+}
+hr#v2 {
+		  position: relative;
+    	  border: none;
+    	  height: 8px;
+    	  margin-bottom: 50px;
+    	  margin-top: 30px;
+    	  margin-bottom: 0px;
+    	  background: -webkit-linear-gradient(left,#3bafbe,Violet);
+}
+
+/*drag and drop madhesia e fotos*/
+#drag1 {width: 346px;
+         height: 69px;}
+
+/* per foton canvas */
+#scream {width: 150px;
+         height: 150px;
+}
+#myCanvas{
+ margin-top: -3.5px;
+}
+/*butoni click me canvas*/
+#click {
+  border-radius: 10px;
+  background: #3bafbe;
+  padding: 4px;
+  width: 60px;
+  height: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#drag1 { width: 150px;
+         height: 150px; }
+
+/* butoni getLocation*/
+ #getLocation {
+  border-radius: 10px;
+  background: #3bafbe;
+  padding: 5px;
+  width: 140px;
+  height: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+
+ #pp { font-family: "Georgia";
+font-size: 18px;
+font-weight: 500;
+text-decoration: none;
+margin-left: 5px;
+
+ }
+
+ #butoni{
+         background-image: url("Images/a3.jpg");
+         height:150px;
+         width:400px;
+         border-color: #3bafbe;
+         font-size:20px;
+         margin:5% 30%;
+         cursor:pointer;
+         font-family: "Georgia";
+         color: White;
+         outline: 10px solid #3bafbe;
+         outline-offset: 5px;
+         resize: horizontal;
+     }
+
+      #center{
+                  /* position: relative;*/
+                   top: 30%;
+                   left: 30%;
+                   transform: translate(-35%, -200%);
+                   font-family: "Georgia";
+                   font-size:20px;
+                   text-shadow:-1px 0px 0px #000111;
+                   text-align: center;
+                   }
+
+                  #imazhi {opacity:1;}
+                  #imazhi:hover{
+                      opacity:0.8;
+                  }
+
+                  .librat{
+         column-count: 3;
+         column-gap: 40px;
+     }
+
+</style>
+</head>
+<body>
+<form onsubmit="d(this.g.value); return false;" id="f">
+    <input type="submit" value="SEARCH"  id="search"/>
+    <input type="text" name="g" size="12" placeholder="Search Our Website..." />
+</form>
+ 
+<div class="content-space">
+</div>
+
+<p>
+      
+<div class="circle1"><a href="http://www.linkedin.com"><i class="fa fa-linkedin" style="font-size:15px; margin-top: 7.5px;"></i></a>
+</div><div class="circle2">
+
+    <a href="http://www.twitter.com"><i class="fa fa-twitter" style="font-size:15px; margin-top: 9px;"></i></a>
+</div><div class="circle3">
+
+    <a href="http://www.pinterest.com"><i class="fa fa-pinterest" style="font-size:15px; margin-top: 8.5px;"></i></a>
+</div><div class="circle4">
+
+	<a href="http://www.google-plus.com"><i class="fa fa-google-plus" style="font-size:15px; margin-top: 9px;margin-left:3px;"></i></a>
+
+</div><div class="circle5">
+
+    <a href="http://www.rss.com"><i class="fa fa-rss" style="font-size:14px; margin-top: 9px;"></i></a><span></div>
+
+</p>
+
+ 
+  <p>
+    <nav>
+        <ul>
+<p id="g">PAPERPLANE </p> <br>
+<p1 id="welcome"> Welcome to Paperplane News</p1>
+
+<li><a href="file:///C:/Users/Lenovo/Desktop/Projekti-perfundimtar/faqja-e-fundit-pytesor.html">CONTACT US</a></li>
+<li><a href="C:\Users\Lenovo\Desktop\Projekti-perfundimtar/faqja-horoskopi.html">HOROSCOPE</a></li>
+<li><a href= "file:///C:/Users/Lenovo/Desktop/Viti3/Viti3/PWW/Projekti/nth/faqja1.html">DROPDOWN</a></li>
+<li><a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/Faqja1.html?_ijt=ap4653vpts1rq5a5k95iel29of">FULL WIDTH</a></li>
+<li><a href="C:\Users\Lenovo\Desktop\Projekti-perfundimtar/faqja1.html">NEWS AND EVENTS</a></li>
+<li><a href="file:///C:/Users/Lenovo/Desktop/Projekti-perfundimtar/projekt10.html" target="_blank">HOME</a></li>
+<!--
+<hr align="right" width="100%" color= "#4a4a4a";/>
+------------------------------------------------------->
+
+        </ul>
+     </nav>
+</p>
+<hr id="firstline">
+
+        <h1 id="slide">News &amp Events</h1>
+        <h1 id="slide1"><em>Space is amazing. The sheer vastness of it, along with
+            the trillions upon trillions of objects in the many
+            billion galaxies of the universe is almost
+            incomprehensible to the human brain.</em></h1>
+
+        <script>
+$(document).ready(function(){
+  $("#slide").click(function(){
+    $("#slide1").slideDown("slow");
+  });
+});
+</script>
+<body style="width: 1000px; margin: auto;"/>
+
+        <table id="1">
+            <thead>
+            <tr>
+
+                <th> <article class="date">
+                    <p>16 December 2021</p>
+                </article><figure><video controls style="width: 300px; height: 200px;" >
+
+                    <source src="Video/video1.mp4" type="video/mp4">
+                </video>
+
+                    <figcaption>
+                        <a href="https://www.youtube.com/watch?v=_T8cn2J13-4&feature=youtu.be">Watch: How are we going to the moon?</a>
+                    </figcaption></figure>
+                    <br>
+
+            </tr>
+
+            <tr>
+                <th> <article class="date">
+                    <p>23 December 2021</p>
+                </article><figure>
+
+                    <video controls style="width: 300px; height: 250px;">
+                        <source src="Video/video2.mp4" type="video/mp4">
+                    </video>
+
+                    <figcaption>
+                        <a href="https://www.youtube.com/watch?time_continue=122&v=zukBXehGHas&feature=emb_title">Watch: NASA’s NICER Reveals 1st-ever Pulsar Surface Map</a>
+                    </figcaption></figure>
+                </th>
+                <!--vendosja e news nen popular articles-->
+                <td>
+                <th><h2>Popular Articles</h2>
+                    <figure>
+                        <img id="drag1" src="Images/a1.jpg" draggable="true" ondragstart="drag(event)" width="150" height="150"/>
+                        <figcaption>
+                            <a href="https://www.space.com/first-black-hole-photo-science-breakthrough-2019.html" id="b"><br>Historic 1st Photo of a Black Hole<br> Named Science Breakthrough of 2019</a>
+                        </figcaption></figure>
+                </th>
+                </td>
+            </tr>
+
+
+            <tr>
+                <th><article class="date">
+                    <p>25 December 2021</p></article>
+                    <figure><img src="Images/a1.jpg" width="300px" height="300px" />
+
+                        <a href="https://www.sciencenews.org/article/50-years-ago-scientists-didnt-know-origin-heavy-elements">
+                            50 years ago, scientists didn’t know where heavy elements came from</a> </figure>
+                </th>
+
+                <td>
+                <th>
+                    <figure><img src="Images/a5.jpg" id="a1" />
+                        <figcaption>
+                            <a href="https://www.space.com/34-image-day.html" id="b1">Pictures from Space! Our Image of the Day</a>
+                        </figcaption></figure>
+                </th>
+                </td>
+
+            </tr>
+
+            <tr>
+                <th><article class="date">
+                    <p>29 December 2021</p></article>
+                    <figure><img src="Images/a3.jpg" width="300px" height="300px" />
+
+                        <a href="https://www.sciencenews.org/article/a-new-mission-to-investigate-exoplanets-has-rocketed-into-space">
+                            <br>A new mission to investigate<br> exoplanets has rocketed into space</a></figure>
+                </th>
+
+                <td>
+                <th>
+                  <img id="scream" src="Images/img_the_scream.jpg" alt="The Scream">
+                  <canvas id="myCanvas" width="160" height="160" ></canvas>
+                        <figcaption>
+                            <a href="https://www.space.com/milky-way-ancient-starburst-discovery-image-video.html" id="b2"><br>Scientists Spot Ancient Star Burst in Milky Way's Heart in Stunning New Image</a>
+                        </figcaption>
+						
+		
+<script>
+window.onload = function() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("scream");
+  ctx.drawImage(img, 10, 10);
+}
+</script>
+
+</script>
+
+                    </figure>
+                </th>
+                </td>
+            </tr>
+            </thead>
+        </table>
+
+
+        <h1>GalaxySounds</h1>
+        <!-- audio-->
+
+        <p id="pp">
+            Space is a vacuum — so it generally doesn’t carry sound waves
+            like air does here on Earth (though some sounds do exist in
+            outer space, we just can’t hear them). But the various probes
+            zooming through our cosmos are capable of capturing radio
+            emissions from space objects. These radio emissions are then
+            converted into sound waves, and the result is the spooky sounds
+            NASA put together into a playlist.</p>
+
+            <figure>
+            <figcaption style="color: #3bafbe;">Its a universe full of secrets</figcaption>
+            <audio controls>
+                <source src="Video/audio1.mp3" type="audio/mpeg">
+            </audio></figure>
+        <br>
+        <figure><figcaption style="color: #3bafbe;">One million Earths could fit inside the sun</figcaption>
+
+            <audio controls>
+                <source src="Video/audio2.mp3" type="audio/mpeg">
+            </audio></figure>
+
+
+<section style="margin-left: 20px;">
+<!--animacioni me jquery-->
+        <button id="butoni">Most Popular Galaxy Books To Read!</button><br>
+        <div class="librat">
+
+            <div id="libri1"><img src="Images/a3.jpg"  id="imazhi" style="width:90%; height:260px;" >
+
+                <p id="center">Welcome to the Universe is a personal guided tour of the cosmos by three of
+                    today's leading astrophysicists.This book covers it all―from planets, stars, and galaxies to black holes,
+                    wormholes, and time travel.</p></div><br>
+            <div id="libri2"><img src="C:\Users\Lenovo\Desktop\Viti3\Viti3\PWW\Projekti\Projekti/secondNew.jpg" id="imazhi" style="width:90%; height:260px;">
+                <p id="center">
+                    Containing star charts, a guide to the constellations, and details about seasons and the movement
+                    of the objects we see in the sky, this classic book makes H. A. Rey’s passion for astronomy evident on every page.
+            </p></div><br>
+            <div id="libri3"><img src="Images/a8.jpg" id="imazhi" style="width:90%; height:260px;" alt="This picture cannot be shown">
+                <p id="center">Vivid...impressive....Splendidly informative.”—The New York Times
+                    “Succeeds spectacularly.”—Science
+                    “A tour de force.”—Salon</p></div>
+        </div>
+
+
+        <script>
+    $(document).ready(function(){
+  $("#butoni").click(function(){
+    var div = $("#butoni");
+    div.animate({fontSize: '2em'}, "slow",function(){
+    });
+    });
+  });
+$(document).ready(function(){
+  $("#butoni").click(function(){
+    $("#libri1").fadeToggle();
+    $("#libri2").fadeToggle("slow");
+    $("#libri3").fadeToggle(2000);
+  });
+});
+        </script>
+    </section>
+        <!-- perdorimi i geolocation permes butonit-->
+
+        <Br>
+        <button id="getLocation" onclick="getLocation()" style="float: right;">PozitaGjeografike</button>
+        <p id="demo"></p>
+
+        <script>
+var x = document.getElementById("demo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}
+</script>
+
+
+        <hr id="v2">
+
+        <section id="n">
+            <table border="0">
+                <thead>
+                <tr> <br>
+                    <th>CONTACT DETAILS</th>
+                    <th>QUICK LINKS</th>
+                    <th>OUR MISSION</th>
+                    <th>GRAB OUR NEWSLETTERS</th>
+                </tr> </thead>
+
+                <tbody>
+                <tr>
+                    <td><br>
+                        <p>For more infomation <br>
+                            wether suggesions or<br>
+                            compaints,
+                            contact us at:<br>
+
+                            <em>Phone:</em> <a href="tel:+14258828080" id="tel">+1 (425) 882-8080</a><br/>
+                            <em>Email:</em> <a href="mailto:Faqja2@gmail.com" id="email">Faqja2@gmail.com</a>
+                        </p>
+                    </td>
+
+                    <td><a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/PWWW19-20_Gr12.html?_ijt=c8ijbj5f8hv64go18vofbilpg7" id="a1">Project</a><hr align="left" width="70%">
+                        <br> <a href="file:///C:/Users/Lenovo/Desktop/Viti3/Viti3/PWW/Projekti/Projekti/faqja1.html" id="a1">
+                            Faqja1</a><hr align="left" width="70%">
+                        <br> <a href="" id="a1">
+                            Faqja2</a><hr align="left" width="70%">
+                        <br> <a href="file:///C:/Users/Lenovo/Desktop/Viti3/Viti3/PWW/Projekti/Projekti/faqja-e-fundit-pytesor.html" id="a1">
+                            Faqja3</a><hr align="left" width="70%">
+                    </td>
+
+                    <td>Our mission is to provide<br>
+                        life-long professional services<br>
+                        to support all people
+                        who<br> want to know more about <br>
+                        our planet and space.
+                        </br></td>
+                    <td>
+                        <form action="" >
+                            <p id="p2">
+                        <input type="text" name="name" placeholder="Name" id="f"/> <br>
+                        <input type="text" name="Email" placeholder="Email" id="f"/>  <br>
+<br>
+                        <input id ="ss1" type="SUBMIT" name="SUBMIT"  /></p>
+                        </form>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+            <hr>
+            <footer> Copyright &copy 2021 - All Rights Reserved  </footer>
+        </section></section>
+</section>
+
+
+</body>
+</html>

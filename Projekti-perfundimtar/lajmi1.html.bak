@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>	
+<header class="fancy"></header>
+
+<meta charset="UTF-8" manifest="manifest.appcache">
+
+    <title>Projekti në lëndën Programimi në WWW</title>
+    <link rel="stylesheet" type="text/css" href="lajmi1css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<!--
+<svg height="210" width="500">
+  <line x1="0" y1="0" x2="5000" y2="0" style="stroke:rgb(255,0,0);stroke-width:8"/>
+</svg>
+-->
+<body>
+<body style="width: 1000px; margin: auto;"/>
+<form onsubmit="d(this.g.value); return false;" id="f">
+    <input type="submit" value="SEARCH"  id="search"/>
+    <input type="text" name="g" size="12" placeholder="Search Our Website..." />
+</form>
+ 
+<div class="content-space">
+</div>
+
+<p>
+      
+<div class="circle1"><a href="http://www.linkedin.com"><i class="fa fa-linkedin" style="font-size:15px; margin-top: 7.5px;"></i></a>
+</div><div class="circle2">
+
+    <a href="http://www.twitter.com"><i class="fa fa-twitter" style="font-size:15px; margin-top: 9px;"></i></a>
+</div><div class="circle3">
+
+    <a href="http://www.pinterest.com"><i class="fa fa-pinterest" style="font-size:15px; margin-top: 8.5px;"></i></a>
+</div><div class="circle4">
+
+	<a href="http://www.google-plus.com"><i class="fa fa-google-plus" style="font-size:15px; margin-top: 9px;margin-left:3px;"></i></a>
+
+</div><div class="circle5">
+
+    <a href="http://www.rss.com"><i class="fa fa-rss" style="font-size:14px; margin-top: 9px;"></i></a><span></div>
+
+</p>
+
+ 
+  <p>
+    <nav>
+        <ul>
+<p id="g">PAPERPLANE </p> <br>
+<p1 id="welcome"> Welcome to Paperplane News</p1>
+
+<li><a href="file:///C:/Users/Lenovo/Desktop/Projekti-perfundimtar/faqja-e-fundit-pytesor.html">CONTACT US</a></li>
+<li><a href="C:\Users\Lenovo\Desktop\Projekti-perfundimtar/faqja-horoskopi.html">HOROSCOPE</a></li>
+<li><a href= "file:///C:/Users/Lenovo/Desktop/Viti3/Viti3/PWW/Projekti/nth/faqja1.html">DROPDOWN</a></li>
+<li><a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/Faqja1.html?_ijt=ap4653vpts1rq5a5k95iel29of">FULL WIDTH</a></li>
+<li><a href="C:\Users\Lenovo\Desktop\Projekti-perfundimtar/faqja1.html">NEWS AND EVENTS</a></li>
+<li><a href="file:///C:/Users/Lenovo/Desktop/Projekti-perfundimtar/projekt10.html" target="_blank">HOME</a></li>
+<!--
+<hr align="right" width="100%" color= "#4a4a4a";/>
+------------------------------------------------------->
+
+        </ul>
+     </nav>
+</p>
+<hr id="firstline">
+
+<div class="container">
+  <img src="C:\Users\Lenovo\Desktop\Projekti-perfundimtar/northen-lights.jpg" alt="Snow" style="width:100%;">
+
+  <div class="centered">TRAVEL TIPS</div>
+  <div class="tittleimage">Your Guide to Seeing the Northern Lights</div>
+</div>
+
+<div class = "permbajtja">
+<div class = "paragrafi">
+<p>
+Catching the Northern Lights can feel a bit like the roll of a dice – and while there is a bit of luck involved, following our expert tips can increase your odds.
+</p>
+</div>
+<div class="header2">
+<h2>
+What causes the Northern Lights?
+</h2>
+<h3><b>Historically when’s the best time to see the Northern Lights in Alaska?</b></h3>
+</div>
+<div class = "paragrafi">
+
+<p>
+The Northern Lights occur because of solar activity — and because the sun is presently near what is called solar minimum, some aurora hunters have decided to postpone their trip. This is misguided, however. Although there is a smaller chance now of experiencing a full-on auroral storm than during solar maximum, there will be nightly displays of Northern Lights right through until solar maximum returns in 2024. The real trick is finding clear skies.
+</p>
+</div>
+<div class="header2">
+<h3>
+What’s the forecasted best time to go in 2018?
+</h3>
+</div>
+<div class = "paragrafi">
+
+<p>
+Displays of the Northern Lights tend to intensify around the equinox months of September and March, because of Earth’s tilt in relation to the sun. Combine that with a higher chance of clear skies in Alaska during spring, and March at an inland location is the best time and place to maximize your chances of seeing the Northern Lights from Alaska.
+
+It's also helpful to avoid the full moon, and a week on either side, to avoid the sky being washed out by moonlight. If you can find dark and clear skies, be on alert from 10 p.m. through 2 a.m., and you might get to see an aurora. According to the Geophysical Institute, the best time to see the aurora is at around midnight, give or take an hour.
+</p></div>
+<div class="header2">
+<h2>
+Northern Lights Season in Alaska
+</h2>
+</div>
+<div class = "paragrafi">
+
+<p>
+Alaska's Northern Lights season is between mid-September and late April, peaking in March, though that's to do more with the long, dark nights than solar activity. Forecasting the Northern Lights means predicting solar activity, which is virtually impossible with our current technology.
+We do know, however, that the Northern Lights are best seen in Alaska between 65° north and 70° north latitude. Fairbanks sits at 64° N and enjoys sporadic Northern Lights, though it's best to forget the more southerly destinations of Anchorage and Juneau, which see dramatically fewer displays during solar minimum (which lasts until the early 2020s).
+
+For those wanting to maximize their chances now, head for the more remote northern villages of Coldfoot in the Yukon Territory, or Prudhoe Bay and Barrow in the extreme north.
+</p>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <hr id="v2" >
+
+<section id="n">
+    <table border="0">
+        <thead>
+        <tr> <br>
+            <th>CONTACT DETAILS</th>
+            <th>QUICK LINKS</th>
+            <th>OUR MISSION</th>
+            <th>GRAB OUR NEWSLETTER</th>
+        </tr> </thead>
+
+        <tbody>
+        <tr>
+            <td>
+                <p>For more infomation <br>
+                    wether suggesions or compaints, <br>
+                    contact us at:<br>
+
+                    <em>Phone:</em> <a href="tel:+14258828080" id="a1">+1 (425) 882-8080</a><br/>
+                    <em>Email:</em> <a href="mailto:Projekti@gmail.com" id="a1">Faqja2@gmail.com</a>
+                </p></td>
+
+            <td><a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/PWWW19-20_Gr12.html?_ijt=c8ijbj5f8hv64go18vofbilpg7" id="a1">Project</a>
+			<hr align="left" width="70%">
+                <br> <a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/Faqja1.html?_ijt=o5d300d9ilfnr6tjlbobueipoc" id="a1">
+                    Faqja1</a><hr align="left" width="70%">
+                <br> <a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/Faqja2.html?_ijt=o5d300d9ilfnr6tjlbobueipoc" id="a1">
+                    Faqja2</a><hr align="left" width="70%">
+                <br> <a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/Faqja3.html?_ijt=h1o65m39el7082r7f6hq9fuj37" id="a1">
+                    Faqja3</a><hr align="left" width="70%">
+            </td>
+
+            <td>Our mission is to provide<br>
+                life-long professional services<br>
+                to support all people
+                who<br> want to know more about <br>
+                our planet and space.
+                </br></td>
+            <td>
+                <form action="" >
+                    <p id="p2">
+                        <input type="text" name="name" placeholder="Name" id="f"/> <br>
+                        <input type="text" name="Email" placeholder="Email" id="f"/>  <br>
+                        <br>
+                        <input id ="ss" type="SUBMIT" name="SUBMIT"  /></p>
+                </form>
+
+
+            </td>
+        </tr>
+        </tbody>
+    </table>
+
+<hr>
+<footer> Copyright &copy 2021 - All Rights Reserved  </footer>
+</section></section>
+</section>
+
+
+
+
+
+</body>
+</html>

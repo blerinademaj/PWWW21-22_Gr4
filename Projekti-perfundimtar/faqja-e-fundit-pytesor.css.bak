@@ -1,0 +1,140 @@
+
+ legend
+{
+
+    text-shadow: 2px 1.5px;
+
+}
+body label
+{
+    word-wrap: break-word;
+    color: DarkViolet;
+
+}
+
+body
+{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+#all { background-color: white; }
+
+table
+{
+    width: 50%;
+    margin: 0 auto ;
+
+}
+
+fieldset
+{
+     background-color: red;
+}
+
+
+legend
+{
+   text-align: center;
+   font-size: 30px;
+   background-color: white;
+}
+
+
+fieldset
+{
+    margin:1em auto;
+    width: 35%;
+
+}
+
+form p
+{
+    margin-top: 1.5em
+}
+
+form input[type="text"]
+{
+    height: 30px;
+    font-size: 16px;
+    padding: 2px;
+}
+form select
+{
+    height: 40px;
+    font-size: 16px;
+    padding: 2px;
+}
+form input[type="date"],form input[type="email"]
+{
+    height: 30px;
+    font-size: 16px;
+    padding: 2px;
+
+}
+
+form input[type="reset"],form input[type="submit"]
+{
+   height: 30px;
+   font-size: 16px;
+    padding: 2px;
+}
+
+form input[type="tel"]
+{
+    height: 30px;
+    font-size: 16px;
+    padding: 2px;
+}
+
+.education
+{
+    height: 40px;
+    font-size: 16px;
+    padding: 2px;
+
+}
+
+#submit {
+         border-radius: 10px;
+          background: DarkViolet;
+          padding: 10px;
+          width: 70px;
+          height: 35px;
+          text-decoration: none;
+          color: white;
+
+        }
+
+#reset {
+         border-radius: 10px;
+          background: DarkViolet;
+          padding: 10px;
+          width: 70px;
+          height: 35px;
+          text-decoration: none;
+          color: white;
+
+        }
+
+ #start {
+          border-radius: 10px;
+           background: DarkViolet;
+           padding: 10px;
+           width: 70px;
+           height: 45px;
+           text-decoration: none;
+           color: white;
+
+         }
+
+ #stop {
+          border-radius: 10px;
+           background: DarkViolet;
+           padding: 10px;
+           width: 70px;
+           height: 45px;
+           text-decoration: none;
+           color: white;
+
+         }
