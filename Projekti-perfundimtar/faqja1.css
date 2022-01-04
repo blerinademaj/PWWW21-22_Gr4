@@ -1,0 +1,333 @@
+
+body{
+
+	font-family: "Georgia";
+    font-size: 12px;
+}
+
+.fancy{  border-top: 5px solid #3bafbe;}
+
+i{
+	height: 25px;
+	width: 20px;
+	color: white;
+} 
+   p{
+	  display: inline;
+  }
+  /* icons orange from black
+   i:hover { color: orange;
+  }
+ */
+ form{margin-top: 25px;}
+.circle1{
+     background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-left: 20px;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle1:hover{ background: orange;}
+  
+.circle2{
+  background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle2:hover{ background: orange;}
+
+.circle3{
+ background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle3:hover{ background: orange;}
+
+.circle4{
+ background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle4:hover{ background: orange;}
+
+.circle5{
+	 background: #1f1f1f;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+	margin-right: 10px;
+    display: inline-block;
+    overflow: hidden;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1;
+}
+.circle5:hover{ background: orange;}
+
+::placeholder {
+        
+        color: white;
+    }
+#search {
+ border-radius: 10px;
+  background: #3bafbe;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-size: 12px;
+  color: white;
+  float: right;
+  margin-left: 3px;
+  border: 0;
+}
+
+
+  input  {		
+			border-radius: 10px;
+            background: #333333;
+            padding: 10px;
+            width: 200px;
+            height: 12px;
+            text-decoration: none;
+			font-family: Georgia;
+			font-size: 12px;
+            color: white;
+            float: right;
+			 
+}
+
+p label  {float: right; 
+}
+
+  nav ul p{
+	  font-size: 32px;
+	  font-style: bold;
+	  color: #4a4a4a;
+	/*	pike fillestare margin-left: -40px; */
+	  margin-left: -25px;
+	  background-size: 100px 100px 100px 100px;
+  }
+   #welcome{
+	 color:#999999;
+	 margin-left:-25px;
+	 font-family:"Georgia"
+	 font-size:12px;
+	 }
+	 #firstline{background-color: #e2e2e2; height: 1px; border: 0;margin-top: 25px;}
+
+    ul li
+  {   float: right;
+	  list-style: none;
+	  display: inline;
+	  margin-left: 25px;
+ }
+
+/* menyte(homepage...) me elementin hover,border per vijen*/
+  ul li :hover{color: #3bafbe;}
+
+/* heqja e underline te linkut*/
+ li a {text-decoration:none;}
+/* icons pinterest,google... to gray*/
+p a i {color: white;
+       }
+
+figcaption h4 { float: left;}
+
+  nav ul p1
+  {
+	  font-size: 1em;
+
+  }
+
+/* menyte homepage.... black*/
+li a {color: #999999;
+	  font-family: "Georgia";
+	  font-size: 12px;
+
+}
+
+  div{ 
+     float: center;
+	 text-align: right;
+     padding: 0px;
+  }
+  section h3{
+	  text-align: left;
+      padding: 20px;
+  }
+
+ul #g
+{font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 55px;
+color: #000000;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+
+
+.collapsible {
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+.content {
+
+  padding: 0 45px;
+  display: none;
+  overflow: hidden;
+
+}
+.row {
+
+
+  max-width: 1200px;
+  margin: 30px auto;
+  width: 100%;
+  height:auto;
+  display: grid;
+  /* Define Auto Row size */
+
+  grid-auto-rows: auto;
+  /*Define our columns */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+  grid-column-gap: 3px;
+  grid-row-gap: 0px;
+}
+.infoText{
+  padding:0 200px;
+
+}
+
+#a1 {color: DarkViolet;}
+
+/* ndryshimi i teresishem i faqes*/
+#black {background-color: black;
+padding: 2px;
+}
+#brenda { border-radius: 15px;
+background-color: white;
+}
+
+body { margin: auto;
+       background-image: url(Images/g34.jpg);
+
+width: 960px;
+height: 350px;}
+
+#ss {
+   border-radius: 10px;
+  background: DarkViolet;
+  padding: 10px;
+  width: 70px;
+  height: 35px;
+  text-decoration: none;
+  color: white;
+  float: left;
+
+}
+#butoni1 {  border-radius: 10px;
+            background: DarkViolet;
+            padding: 10px;
+            width: 100px;
+            height: 45px;
+            text-decoration: none;
+            color: white;
+            float: left; }
+
+#svg { top: 50%;
+      left: 100%;
+      margin-left : 30%
+
+               }
+
+/*tranformimi 2d*/
+ #foto:hover{
+	 -webkit-transform: scaleX(-1);
+	 -moz-transform:scaleX(-1);
+	 -o-transform: scaleX(-1);
+	 transform: scaleX(-1);
+	 transform: rotate(30deg);
+	 animation: roll 3s infinite;
+ }
+
+ @keyframes roll{
+	 0% {
+		 transform: rotateX(0);
+		 transform: rotateY(0);
+	 }
+	100% {
+		transform: rotateX(360deg);
+		transform: rotateY(360deg);
+	}
+ }
+
+
+ <script>
+   if(localStorage){
+	   $(document).ready(function(){
+		   $(".save").click(function(){
+			   //Get input name
+			   var firstName=$("#firstName").val();
+
+			   //Store data
+			     localStorage.setItem("first_name", firstName);
+				      sessionStorage.setItem("first_name",firstName);
+					 console.log("Your first name is saved.");
+		   });
+		    $(".access").click(function(){
+				//Retrive data
+			 console.log("Hi, "+localStorage.getItem("first_name"));
+			});
+	   });
+   }else{
+	    console.log("Sorry, your browser do not support local storage.");
+   }
+ </script>
+
+ hr#v2 {
+           position: relative;
+     	  border: none;
+     	  height: 8px;
+     	  margin-bottom: 50px;
+     	  background: DarkViolet;
+     	  margin-top: 30px;
+     	  margin-bottom: 0px;
+
+ }
