@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" manifest="manifest.appcache">
+    <title>Faqja e fundit</title>
+    <link rel="stylesheet" type="text/css" href="faqja-e-fundit-pytesor.css">
+    <link rel="stylesheet" href="webworker.js"/>
+
+</head>
+<body>
+<form method="get" action="" autocomplete="on">
+    <fieldset>
+        <legend> Ju lutem plotësoni formularin</legend>
+
+        <script>
+var now = new Date();
+var hours = now.getHours();
+
+if (hours > 6 && hours < 20){
+ document.write ('<body style="background-color: white">');
+}
+
+else {
+ document.write ('<body style="background-color: black">');
+
+}
+</script>
+        <script>
+var w;
+
+function startWorker() {
+  if (typeof(Worker) !== "undefined") {
+    if (typeof(w) == "undefined") {
+      w = new Worker("webworker.js");
+    }
+    w.onmessage = function(event) {
+      document.getElementById("result").innerHTML = event.data;
+    };
+  } else {
+    document.getElementById("result").innerHTML = "Sorry! No Web Worker support.";
+  }
+}
+
+function stopWorker() {
+  w.terminate();
+  w = undefined;
+}
+</script>
+
+        <table>
+	       <tr><p> Të dhënat tuaja ruhen, dhe janë konfidenciale. Vetëm ju mund t'i publikoni ato, me dëshirën tuaj!</p></tr>
+
+            <tr>
+                <td colspan="2">
+
+                    <p> <label>Emri</label></br>
+                        <input type="text" name="name" id="name"  placeholder="Shtypni emrin tuaj" autofocus   />
+                    </p>
+                    <p>
+                        <label>Mbiemri</label></br>
+                        <input type="text" name="surname" id="surname" placeholder="Shtypni mbiemrin tuaj" class="required hilightable"/>
+                    </p>
+                    <p>
+                        <label>Email</label></br>
+                        <input type="email" name="email" id="email" placeholder="name@domain.com" class="required hilightable"/>
+                    </p>
+                    <p>
+                        <label>Numri i telefonit</label></br>
+                        <input type="tel"  name="Phone number" id="Phone number" placeholder="Shtyni numrin tuaj" />
+                    </p>
+                    <p>
+                        <label>Data e lindjes</label></br>
+                        <input type="date" name="birthday" id="age" class="required hilightable" />
+                    </p>
+            </tr>
+            </td>
+
+            <td>
+                <div class="box">
+                    <label>Gjinia</label><br/>
+                    <input type="radio" name="copyright" value="1">M <br/>
+                    <input type="radio" name="copyright" value="2">F <br/>
+
+
+                </div>
+
+
+
+
+
+                <p><label>Edukimi</label></b>
+                    <select name="Education" class="hilightable">
+                        <option>Zgjedh</option>
+                        <option>Universiteti "HASAN PRISHTINA"</option>
+                        <option>Universiteti "HAXHI ZEKA"</option>
+                        <option>College "UBT"</option>
+                        <option>College "ILIRIA"</option>
+                        <option>College "FAMA"</option>
+                        <option>College "UNIVERSUM"</option>
+                    </select>
+                </p>
+
+
+                <p> <label>Viti i studimit</label><br/>
+                    <select name="study year" class="hilightable">
+                        <option>Zgjedh vitin</option>
+                        <option>I</option>
+                        <option>II</option>
+                        <option>III</option>
+                        <option>IV</option>
+                        <<option>I/e diplomuar</option>
+                    </select>
+                </p>
+
+
+                <p><label>Vendbanimi</label><br/>
+                    <select name="City" class="hilightable ">
+                        <option>Zgjedh qytetin</option>
+                        <option>Prishtinë</option>
+						<option>Podujevë</option>
+                        <option>Pejë</option>
+                        <option>Prizren</option>
+                        <option>Gjakovë</option>
+                        <option>Mitrovicë</option>
+                        <option>Ferizaj</option>
+						<option>Gjilan</option>
+                        <option>Dragash</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="submit" name="Dergo" id="submit"/>
+                    <input type="reset" name="Rishtyp" id="reset"/></br>
+                </p>
+            </td>
+        
+
+        </table>
+    </fieldset>
+</form>
+</body>
+</html>

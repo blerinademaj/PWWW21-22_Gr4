@@ -766,14 +766,13 @@ function showPosition(position) {
                         </p>
                     </td>
 
-            <td><a href="file:///C:/Users/Lenovo/Desktop/Projekti-perfundimtar/projekt10.html" id="a1">Projekti</a>
-			<hr align="left" width="70%">
-                <br> <a href="file:///C:/Users/Lenovo/Desktop/Projekti-perfundimtar/faqja1.html" id="a1">
-                    Faqja1</a><hr align="left" width="70%">
-                <br> <a href="file:///C:/Users/Lenovo/Desktop/Projekti-perfundimtar/faqja-horoskopi.html" id="a1">
-                    Faqja2</a><hr align="left" width="70%">
-                <br> <a href="file:///C:/Users/Lenovo/Desktop/Projekti-perfundimtar/faqja-e-fundit-pytesor.html" id="a1">
-                    Faqja3</a><hr align="left" width="70%">
+                    <td><a href="http://localhost:63342/HelloWorld/.idea/PWWW19-20_Gr12/PWWW19-20_Gr12.html?_ijt=c8ijbj5f8hv64go18vofbilpg7" id="a1">Project</a><hr align="left" width="70%">
+                        <br> <a href="file:///C:/Users/Lenovo/Desktop/Viti3/Viti3/PWW/Projekti/Projekti/faqja1.html" id="a1">
+                            Faqja1</a><hr align="left" width="70%">
+                        <br> <a href="" id="a1">
+                            Faqja2</a><hr align="left" width="70%">
+                        <br> <a href="file:///C:/Users/Lenovo/Desktop/Viti3/Viti3/PWW/Projekti/Projekti/faqja-e-fundit-pytesor.html" id="a1">
+                            Faqja3</a><hr align="left" width="70%">
                     </td>
 
                     <td>Our mission is to provide<br>
